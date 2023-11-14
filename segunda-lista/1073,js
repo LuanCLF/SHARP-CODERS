@@ -1,0 +1,5 @@
+const valor = parseInt(input);
+
+for (let i = 2; i <= valor; i += 2) {
+  console.log(`${i}^2 = ${i ** 2}`);
+}
