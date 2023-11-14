@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+  font-size: 62.5%;
+}
+
+/* logo spotify */
+
+.logo-spotify {
+  height: 3rem;
+  width: auto;
+}
+
+/* header + nav bar */
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+
+  color: white;
+
+  position: fixed;
+  top: 0;
+
+  width: 100vw;
+}
+
+header #nav-bar {
+  width: 60vw;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #nav-bar ul {
+  display: flex;
+
+  gap: 2rem;
+
+  font-size: 2.3rem;
+  list-style: none;
+}
+
+header #nav-bar ul li:nth-child(3) {
+  border-right: 1px solid white;
+  padding-right: 2rem;
+}
